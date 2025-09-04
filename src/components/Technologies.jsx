@@ -1,9 +1,8 @@
-import { RiReactjsLine } from "react-icons/ri"
+import { RiNodejsLine, RiReactjsLine } from "react-icons/ri"
 import { TbBrandNextjs } from "react-icons/tb"
-import { RiJavascriptLine } from "react-icons/ri"
-import { DiPhotoshop } from "react-icons/di"
-import { DiCode } from "react-icons/di";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
+import { SiDocker, SiGooglecloud, SiMongodb, SiOpenai, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 const iconVariants = (duration) => ({
     initial: { y: -10},
@@ -45,28 +44,63 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <TbBrandNextjs className="text-7xl"/>
+                <TbBrandNextjs className="text-7xl text-gray-100"/>
             </motion.div>
             <motion.div
             variants={iconVariants(5)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <RiJavascriptLine className="text-7xl text-yellow-300"/>
+                <SiTypescript className="text-7xl text-blue-600"/>
             </motion.div>
             <motion.div
             variants={iconVariants(2)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <DiPhotoshop className="text-7xl text-cyan-400"/>
+                <RiNodejsLine className="text-7xl text-green-500"/>
             </motion.div>
             <motion.div
             variants={iconVariants(6)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <DiCode className="text-7xl text-green-500"/>
+                <BiLogoPostgresql className="text-7xl text-blue-700"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(6)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiMongodb className="text-7xl text-green-600"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(6)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiDocker className="text-7xl text-sky-500"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(6)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiGooglecloud className="text-7xl text-yellow-400"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(6)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiTailwindcss className="text-7xl text-teal-400"/>
+            </motion.div>
+            <motion.div
+            variants={iconVariants(6)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiOpenai className="text-7xl text-violet-600"/>
             </motion.div>
         </motion.div>
     </div>
