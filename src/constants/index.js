@@ -86,19 +86,18 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    link: "https://samarthkapoor.vercel.app/",
+    link: "https://samarthkapoor.tech",
   },
   {
-    title: "GSAP Landing Page",
+    title: "Zentry Landing Page",
     image: project4,
-    description: "Aesthetic Landing Page with hover-over effect using GSAP.",
-    technologies: ["HTML", "CSS", "GSAP"],
-    link: "https://gsap-landing-nine.vercel.app/",
+    description: "Gaming landing page with GSAP animations (sound on)",
+    technologies: ["React", "GSAP"],
+    link: "https://zentry-iota.vercel.app/",
   },
 ];
 
 export const CONTACT = {
-  address: "Lucknow, Uttar Pradesh",
-  phoneNo: "+91 7880981749",
+  address: "Bengaluru, Karnataka",
   email: "kapoorsamarth7@gmail.com",
 };
