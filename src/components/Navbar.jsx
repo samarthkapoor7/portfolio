@@ -21,7 +21,7 @@ const Navbar = () => {
         <a href="https://www.instagram.com/thesamarthkapoor/" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </a>
-        <a href="https://x.com/SamarthMUFC" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/samarthtwt" target="_blank" rel="noopener noreferrer">
           <FaTwitter />
         </a>
       </div>
