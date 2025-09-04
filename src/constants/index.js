@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I'm an enthusiastic aspiring full-stack developer eager to build a career in creating robust and scalable web applications. I have been developing my skills in front-end technologies like React and Next.js, as well as back-end technologies such as Node.js, MySQL, PostgreSQL, and MongoDB. I'm excited to apply my knowledge to develop innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I’m an enthusiastic full-stack developer passionate about building scalable web applications and agent dashboards. Skilled in React, Next.js, Node.js, PostgreSQL, and MongoDB, with experience in GCP, Convex, and AI-driven voice solutions using Exotel, Cartesia, OpenAI, and Deepgram. I love creating innovative products that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I'm a dedicated and versatile aspiring full-stack developer with a passion for creating efficient and user-friendly web applications. I've been developing my skills with technologies like React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity about how things work, and I'm eager to build a career where I can continue learning and adapting to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Full-stack engineer driving end-to-end product development from ideation to implementation. Experienced in building agent dashboards and AI-driven solutions with a strong focus on user experience, scalability, and real-world impact. Skilled in React, Next.js, Node.js, PostgreSQL, and MongoDB, with experience deploying on GCP and using Convex for real-time data. Worked with voice agent platforms such as Exotel, Cartesia, OpenAI LLMs, and Deepgram to create innovative conversational applications.`;
 
 export const EXPERIENCES = [
   {
