@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `Full-stack engineer driving end-to-end product develo
 export const EXPERIENCES = [
   {
     year: "June 2025 - present",
-    role: "Full-stack Intern",
+    role: "SDE-1",
     company: "Repaio",
     description: `Worked on AI voice agents leveraging services like Exotel, Twilio, Deepgram, Cartesia, HumeAI, and OpenAI LLMs to build real-time conversational solutions. Designed and developed an Attendance & Leave Management System from the ground up on the company’s CRM platform, streamlining employee workflows. Contributed to both backend integrations and frontend UI/UX, delivering scalable, production-ready features.`,
     technologies: [
