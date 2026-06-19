@@ -6,6 +6,7 @@ import {
   SiMongodb,
   SiOpenai,
   SiPrisma,
+  SiPython,
   SiRedis,
   SiTwilio,
   SiTypescript,
@@ -68,6 +69,7 @@ const technologies = [
     color: "text-indigo-400",
     duration: 4,
   },
+  { label: "Python", icon: SiPython, color: "text-yellow-500", duration: 4.5 },
   { label: "Twilio", icon: SiTwilio, color: "text-red-400", duration: 3 },
 ];
 
