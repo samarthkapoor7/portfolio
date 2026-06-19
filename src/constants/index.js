@@ -1,7 +1,6 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.png";
+import project3 from "../assets/projects/project-3.png";
 
 export const HERO_CONTENT = `I'm a result-oriented full stack and AI developer with hands-on experience building AI voice agents, LLM-powered workflows, and scalable SaaS products. Proficient in LangGraph, OpenAI integrations, real-time systems, and ML inference pipelines with XGBoost. I'm passionate about shipping high-performance, user-focused applications with measurable business impact.`;
 
@@ -45,6 +44,22 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Beacon",
+    image: project2,
+    description:
+      "A predictive dependency health SaaS that scans GitHub repositories, analyzes 6 signal categories per package, and forecasts abandonment 60-90 days in advance using XGBoost. Features a decoupled async pipeline with real-time onboarding progress and a dashboard with animated health scores, survival curves, and AI-generated migration recommendations.",
+    technologies: [
+      "Next.js",
+      "Node.js",
+      "Python",
+      "BullMQ",
+      "Redis",
+      "PostgreSQL",
+      "XGBoost",
+    ],
+    link: "https://beacon.forgefastlabs.com",
+  },
+  {
     title: "Podcastr",
     image: project1,
     description:
@@ -56,30 +71,15 @@ export const PROJECTS = [
       "Open-AI",
       "Convex",
     ],
-    link: "https://www.podcastrr.me/",
+    link: "https://podcastr-six-gamma.vercel.app/",
   },
   {
-    title: "SaaS Landing Page",
-    image: project2,
-    description:
-      "Engaging and responsive SaaS landing page with smooth animations, fast performance, and a sleek, professional design.",
-    technologies: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-    link: "https://saas-landing-page-ebon.vercel.app/",
-  },
-  {
-    title: "Portfolio Website",
+    title: "AI Voice Agent",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    link: "https://samarthkapoor.tech",
-  },
-  {
-    title: "Zentry Landing Page",
-    image: project4,
-    description: "Gaming landing page with GSAP animations (sound on)",
-    technologies: ["React", "GSAP"],
-    link: "https://zentry-iota.vercel.app/",
+      "A real-time AI voice agent enabling natural two-way phone conversations with sub-1.2s response latency. Built using Twilio for telephony, OpenAI for dialogue generation, Deepgram for real-time speech-to-text, and Hume AI's TTS engine for emotionally expressive voice responses.",
+    technologies: ["Twilio", "OpenAI", "Deepgram", "Hume AI"],
+    link: "https://github.com/samarthkapoor7/ai-call",
   },
 ];
 
