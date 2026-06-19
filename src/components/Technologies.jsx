@@ -1,12 +1,13 @@
 import { RiNodejsLine, RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNextjs, TbGraph } from "react-icons/tb";
 import { motion } from "framer-motion";
 import {
-  SiDocker,
-  SiGooglecloud,
+  SiExpress,
   SiMongodb,
   SiOpenai,
-  SiTailwindcss,
+  SiPrisma,
+  SiRedis,
+  SiTwilio,
   SiTypescript,
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -25,6 +26,51 @@ const iconVariants = (duration) => ({
   },
 });
 
+const technologies = [
+  {
+    label: "React",
+    icon: RiReactjsLine,
+    color: "text-cyan-400",
+    duration: 2.5,
+  },
+  {
+    label: "Next.js",
+    icon: TbBrandNextjs,
+    color: "text-gray-100",
+    duration: 3,
+  },
+  {
+    label: "TypeScript",
+    icon: SiTypescript,
+    color: "text-blue-600",
+    duration: 5,
+  },
+  {
+    label: "Node.js",
+    icon: RiNodejsLine,
+    color: "text-green-500",
+    duration: 2,
+  },
+  { label: "Express", icon: SiExpress, color: "text-gray-100", duration: 4 },
+  {
+    label: "PostgreSQL",
+    icon: BiLogoPostgresql,
+    color: "text-blue-700",
+    duration: 6,
+  },
+  { label: "MongoDB", icon: SiMongodb, color: "text-green-600", duration: 6 },
+  { label: "Redis", icon: SiRedis, color: "text-red-500", duration: 4.5 },
+  { label: "Prisma", icon: SiPrisma, color: "text-teal-300", duration: 3.5 },
+  { label: "OpenAI", icon: SiOpenai, color: "text-violet-600", duration: 6 },
+  {
+    label: "LangGraph",
+    icon: TbGraph,
+    color: "text-indigo-400",
+    duration: 4,
+  },
+  { label: "Twilio", icon: SiTwilio, color: "text-red-400", duration: 3 },
+];
+
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
@@ -42,106 +88,18 @@ const Technologies = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-4"
       >
-        <TechTooltip label="React">
-          <motion.div
-            variants={iconVariants(2.5)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <RiReactjsLine className="text-7xl text-cyan-400" />
-          </motion.div>
-        </TechTooltip>
-        <TechTooltip label="Next.js">
-          <motion.div
-            variants={iconVariants(3)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <TbBrandNextjs className="text-7xl text-gray-100" />
-          </motion.div>
-        </TechTooltip>
-        <TechTooltip label="TypeScript">
-          <motion.div
-            variants={iconVariants(5)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <SiTypescript className="text-7xl text-blue-600" />
-          </motion.div>
-        </TechTooltip>
-        <TechTooltip label="Node.js">
-          <motion.div
-            variants={iconVariants(2)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <RiNodejsLine className="text-7xl text-green-500" />
-          </motion.div>
-        </TechTooltip>
-        <TechTooltip label="PostgreSQL">
-          <motion.div
-            variants={iconVariants(6)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <BiLogoPostgresql className="text-7xl text-blue-700" />
-          </motion.div>
-        </TechTooltip>
-        <TechTooltip label="MongoDB">
-          <motion.div
-            variants={iconVariants(6)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <SiMongodb className="text-7xl text-green-600" />
-          </motion.div>
-        </TechTooltip>
-        <TechTooltip label="Docker">
-          <motion.div
-            variants={iconVariants(6)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <SiDocker className="text-7xl text-sky-500" />
-          </motion.div>
-        </TechTooltip>
-        <TechTooltip label="GCP">
-          <motion.div
-            variants={iconVariants(6)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <SiGooglecloud className="text-7xl text-yellow-400" />
-          </motion.div>
-        </TechTooltip>
-        <TechTooltip label="TailwindCSS">
-          <motion.div
-            variants={iconVariants(6)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <SiTailwindcss className="text-7xl text-teal-400" />
-          </motion.div>
-        </TechTooltip>
-        <TechTooltip label="OpenAI">
-          <motion.div
-            variants={iconVariants(6)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4"
-          >
-            <SiOpenai className="text-7xl text-violet-600" />
-          </motion.div>
-        </TechTooltip>
+        {technologies.map(({ label, icon: Icon, color, duration }) => (
+          <TechTooltip key={label} label={label}>
+            <motion.div
+              variants={iconVariants(duration)}
+              initial="initial"
+              animate="animate"
+              className="rounded-2xl border-4 border-neutral-800 p-4"
+            >
+              <Icon className={`text-7xl ${color}`} />
+            </motion.div>
+          </TechTooltip>
+        ))}
       </motion.div>
     </div>
   );
