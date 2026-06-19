@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I’m an enthusiastic full-stack developer passionate about building scalable web applications and agent dashboards. Skilled in React, Next.js, Node.js, PostgreSQL, and MongoDB, with experience in GCP, Convex, and AI-driven voice solutions using Exotel, Cartesia, OpenAI, and Deepgram. I love creating innovative products that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm a result-oriented full stack and AI developer with hands-on experience building AI voice agents, LLM-powered workflows, and scalable SaaS products. Proficient in LangGraph, OpenAI integrations, real-time systems, and ML inference pipelines with XGBoost. I'm passionate about shipping high-performance, user-focused applications with measurable business impact.`;
 
 export const ABOUT_TEXT = `Full-stack engineer driving end-to-end product development from ideation to implementation. Experienced in building agent dashboards and AI-driven solutions with a strong focus on user experience, scalability, and real-world impact. Skilled in React, Next.js, Node.js, PostgreSQL, and MongoDB, with experience deploying on GCP and using Convex for real-time data. Worked with voice agent platforms such as Exotel, Cartesia, OpenAI LLMs, and Deepgram to create innovative conversational applications.`;
 
