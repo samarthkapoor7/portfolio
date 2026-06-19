@@ -12,16 +12,16 @@ export const EXPERIENCES = [
     year: "June 2025 - present",
     role: "SDE-1",
     company: "Repaio",
-    description: `Worked on AI voice agents leveraging services like Exotel, Twilio, Deepgram, Cartesia, HumeAI, and OpenAI LLMs to build real-time conversational solutions. Designed and developed an Attendance & Leave Management System from the ground up on the company’s CRM platform, streamlining employee workflows. Contributed to both backend integrations and frontend UI/UX, delivering scalable, production-ready features.`,
+    description: `Building real-time AI voice agents using Exotel, Twilio, Deepgram, Cartesia, and Hume AI, with conversational logic orchestrated through LangGraph and OpenAI function calling. Rebuilt the company's outbound calling platform end-to-end, including backend APIs, campaign orchestration, and dynamic variable mapping for B2B clients across banking, NBFC, and fintech. Also designed and built an Attendance & Leave Management System from the ground up on the company's CRM platform.`,
     technologies: [
       "React",
       "Node.js",
-      "TailwindCSS",
       "PostgreSQL",
-      "VoiceAI",
-      "Docker",
-      "GCP",
+      "LangGraph",
       "OpenAI",
+      "Deepgram",
+      "Twilio",
+      "GCP",
     ],
   },
   {
@@ -40,20 +40,6 @@ export const EXPERIENCES = [
       "GSAP",
       "Git",
     ],
-  },
-  {
-    year: "Nov 2024 - Jan 2025",
-    role: "Front End Developer",
-    company: "Unified Mentor",
-    description: `Designed and developed responsive web interfaces for industrial projects using FE frameworks. Adhered to agile methodologies to ensure smooth project workflows and iterative improvements.`,
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
-  },
-  {
-    year: "Oct 2021 - Nov 2021",
-    role: "Graphic Designer",
-    company: "Sportsbae",
-    description: `Increased social media engagement by 50% during IPL 2021 and grew followers by 20% through targeted campaigns, innovative branding strategies, and leveraging analytics, all while maintaining high-quality standards and consistently meeting tight deadlines to ensure effective project delivery and client satisfaction.`,
-    technologies: ["Adobe Photoshop", "After Effects"],
   },
 ];
 
