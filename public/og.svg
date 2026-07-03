@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#FAFAF8" />
+  <!-- hairline frame -->
+  <rect x="48" y="48" width="1104" height="534" fill="none" stroke="#DEDEDA" stroke-width="1.5" />
+  <!-- eyebrow -->
+  <text x="88" y="132" font-family="Georgia, serif" font-size="20" letter-spacing="6" fill="#6B6B68">
+    FULL STACK &amp; AI DEVELOPER — BENGALURU
+  </text>
+  <!-- name -->
+  <text x="84" y="330" font-family="Georgia, 'Times New Roman', serif" font-weight="300" font-size="184" letter-spacing="-4" fill="#141414">
+    Samarth
+  </text>
+  <text x="84" y="490" font-family="Georgia, 'Times New Roman', serif" font-weight="500" font-size="184" letter-spacing="-4" fill="#141414">
+    Kapoor<tspan fill="#4A5568">.</tspan>
+  </text>
+  <!-- footer line -->
+  <text x="88" y="558" font-family="Georgia, serif" font-size="22" fill="#6B6B68">
+    AI voice agents · LLM workflows · scalable SaaS
+  </text>
+</svg>
