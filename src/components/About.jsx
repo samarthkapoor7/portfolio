@@ -8,10 +8,10 @@ export default function About() {
     <Section id="about" index="01" label="About">
       <Reveal>
         <p className="max-w-2xl font-serif text-2xl font-light leading-snug text-ink md:text-[2rem]">
-          I build <span className="italic text-accent">AI voice agents</span>,{" "}
-          <span className="italic text-accent">LLM-powered workflows</span>, and
-          scalable SaaS — the kind of real-time systems that move business
-          metrics.
+          Most of my work lives where{" "}
+          <span className="italic text-accent">AI meets production</span> —
+          turning models and messy, real-world inputs into systems people can
+          actually <span className="italic text-accent">rely on</span>.
         </p>
       </Reveal>
       <Reveal delay={100}>
