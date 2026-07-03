@@ -37,3 +37,44 @@ export const SKILLS = [
     items: ["REST APIs", "WebSockets", "SSE", "OAuth", "JWT Auth"],
   },
 ];
+
+// Horizontal marquee rows (three bands, alternating direction).
+export const MARQUEE_ROWS = [
+  [
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "React",
+    "Next.js",
+    "Node.js",
+    "FastAPI",
+    "LangGraph",
+    "OpenAI",
+    "Deepgram",
+  ],
+  [
+    "Cartesia",
+    "Hume AI",
+    "Twilio",
+    "Exotel",
+    "XGBoost",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "BullMQ",
+    "Convex",
+  ],
+  [
+    "Supabase",
+    "GCP",
+    "Docker",
+    "Git",
+    "CI/CD",
+    "Vercel",
+    "REST APIs",
+    "WebSockets",
+    "SSE",
+    "OAuth",
+    "JWT Auth",
+  ],
+];

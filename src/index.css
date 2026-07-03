@@ -166,3 +166,41 @@ body.has-custom-cursor [role="button"] {
     transform: translateX(300%);
   }
 }
+
+/* ============================================================
+   Marquee (horizontal tech bands)
+   ============================================================ */
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll var(--marquee-duration, 46s) linear infinite;
+}
+.marquee--reverse {
+  animation-direction: reverse;
+}
+.marquee-group:hover .marquee {
+  animation-play-state: paused;
+}
+@keyframes marquee-scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    animation: none;
+  }
+}
+
+/* Full-bleed: break out of the centered container to viewport width */
+.full-bleed {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
